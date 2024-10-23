@@ -98,12 +98,12 @@ function esVocal(letra) {
 // Ejercicio 10: Condicionales complejos con operadores lógicos
 function evaluarNumeros(a, b, c) {
     if (a > 0 && b > 0 && c > 0) {
-        return "Todos son positivos";
-    } else if (a < 0 || b < 0 || c < 0) {
-        return "Al menos uno es negativo";
+        console.log("Todos son positivos");
+    } else if (a < 0 && b < 0 && c < 0) {
+        console.log("Todos son negativos");
     } else {
-        return "Todos son negativos";
-    }
+        console.log("Al menos uno es negativo");
+    }
 }
 
 // Exportar todas las funciones
